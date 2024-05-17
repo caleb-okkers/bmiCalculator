@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+h2 {
+    text-align: center;
+    color: #008000; /* Green text color */
+}
+
+.bmi-calculator {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.weight-container,
+.height-container,
+.button-container,
+.result-container {
+    margin-bottom: 20px;
+}
+
+.weight-container,
+.height-container {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #008000; /* Green button background */
+    color: #fff; /* White text color */
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #006400; /* Darker green on hover */
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    color: #008000; /* Green result text color */
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    color: #008000; /* Green result text color */
+    border: 2px solid #008000; /* Green border */
+    padding: 10px; /* Padding around the result */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Spacing from above elements */
+}
