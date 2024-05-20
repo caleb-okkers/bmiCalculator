@@ -22,7 +22,8 @@ h2 {
 .weight-container,
 .height-container,
 .button-container,
-.result-container {
+.result-container,
+.status-container {
     margin-bottom: 20px;
 }
 
@@ -50,13 +51,15 @@ input[type="button"]:hover {
     background-color: #006400; /* Darker green on hover */
 }
 
-.result {
+.result,
+.status {
     text-align: center;
     font-weight: bold;
     color: #008000; /* Green result text color */
 }
 
-.result {
+.result
+.status {
     text-align: center;
     font-weight: bold;
     color: #008000; /* Green result text color */
